@@ -1,10 +1,24 @@
 .normal {
-	background-color:#e0e0e0;
 	text-align: center;
 	position: absolute;
-	left: 25vw;
-	top: 38vw;
+	left: 24.5vw;
+	top: 37.5vw;
 }
+
+.marker {
+ background: linear-gradient(transparent 40%, #c1e0ff 40%);
+font-weight: bold;
+}
+
+.red {
+	color: #ff0000;
+}
+
+.black {
+}
+
+
+
 
 #diag1 {
 	transform: rotate(-20deg);
@@ -21,7 +35,7 @@ div {
 }
 
 #back {
-	background-image: url(sketch.png);
+	background-image: url(sketch2.png);
 	background-size: cover;
 	padding-top: 85%;
 	background-repeat: no-repeat;
@@ -39,4 +53,3 @@ div {
 	 top: 60vw;
 	 left: 20vw;
 }
-

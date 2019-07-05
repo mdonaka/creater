@@ -3,6 +3,8 @@
 	position: absolute;
 	left: 25vw;
 	top: 38vw;
+	font-family: "Hannotate SC", sans-serif;
+	font-size: 2vw;
 }
 
 #diag1 {
@@ -13,10 +15,6 @@
 #diag2 {
 	transform: rotate(20deg);
 	position: absolute;
-}
-
-div {
-	font-size: 2vw;
 }
 
 #back {

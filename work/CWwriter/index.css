@@ -1,0 +1,35 @@
+.text {
+	font-size: 2vw;
+}
+.sketch {
+	position: absolute;
+	background-color: #FF0000;
+	width: 78vw;
+	height: 52vw;
+	top: 20vw;
+	left: 11vw;
+}
+.normal {
+	text-align: center;
+}
+.diag1 {
+	transform: rotate(-20deg);
+	position: absolute;
+	top: 20vw
+}
+.diag2 {
+	transform: rotate(20deg);
+	position: absolute;
+}
+
+body {
+	background-image: url(sketch.jpg);
+	background-size: cover;
+}
+
+#cloud {
+	 width: 10vw;
+	 height: 10vw;
+	  top:200vm;
+		left:20vm"
+}

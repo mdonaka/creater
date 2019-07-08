@@ -1,0 +1,17 @@
+
+.main img{
+  width: 100%;
+}
+
+.button-contents{
+  position: relative;
+}
+
+#button1{
+  position: absolute;
+
+  width: 70%;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

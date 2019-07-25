@@ -1,9 +1,21 @@
 .title {
-  width: 600px;
-  height: 600px;
-  background-color: #00ff00;
+  position: relative;
+  width: 1300px;
+  height: 900px;
 }
 
 .title img {
-  width: 600px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.title p{
+  position: absolute;
+  left: 0;  right: 0;  top: 50%;
+  margin: auto;
+  width: 100%;
+  font-size: 70px;
 }

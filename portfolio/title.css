@@ -1,0 +1,9 @@
+.title {
+  width: 600px;
+  height: 600px;
+  background-color: #00ff00;
+}
+
+.title img {
+  width: 600px;
+}

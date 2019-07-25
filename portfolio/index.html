@@ -5,15 +5,27 @@
     <meta charset="utf-8">
     <title>tog</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="title.css">
+    <script>
+    // 監視の開始 livereloadx [dir]
+  	document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +':35729/livereload.js?snipver=2"></' + 'script>')
+  	</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./title.js"></script>
 </head>
 
 
 <body>
-
+<script type="text/javascript">
+  setInterval(console.log("hello"), 1000);
+</script>
     <div class="main-message">
+      <!-- ここからタイトル -->
+      <div class="title">
         <p>Web Design Creater...</p>
-        <!--        <p>Hokkaido Creater...</p>-->
-        <a href=""><img src="hokkaido_creater_logo.png"></a>
+        <img src="hokkaidou.png">
+      </div>
+      <!-- タイトル終了 -->
 
         <ul>
             <li><a href="" class="main-menu">Home</a></li>
@@ -22,6 +34,7 @@
             <li><a href="" class="main-menu">Contact</a></li>
         </ul>
 
+    <!-- 2019/07/25 絶対位置で表示されて邪魔なのでコメント化
         <div class="container">
           <div class="image-container">
             <img src="http://static.pexels.com/wp-content/uploads/2015/02/high-rise-holiday-hotel-4422-978x550.jpeg" />
@@ -31,7 +44,7 @@
             </div>
           </div>
         </div>
-
+    -->
 
 
     <div class="main">

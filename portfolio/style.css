@@ -18,10 +18,10 @@ body {
     padding 0;
     width: 98vw;
     height: 100vh;
-    /* background-image: url(hokkaidou.png);
+    background-image: url(hokkaidou.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain; */
+    background-size: contain;
     position: relative;
 }
 
@@ -161,110 +161,48 @@ h1:hover::after {
     border-top: 3px dotted dodgerblue;
 /*    background-color: #CDDDED;*/
 }
-
 .paragraph-inbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 60px;
-    margin-top: 200px;
-    margin-bottom: 0px;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px;
+  margin-top: 200px;
+  margin-bottom: 0px;
+
+  overflow: hidden;
+	width: 800px;
+	height: 800px;
+	/* margin: 20px auto; */
+	border: 10px solid #ffffff;
+	box-shadow: 0 0 5px #cccccc;
+	cursor: pointer;
+
+  text-align: center;
+  align-items: center;
 
 }
 
-.paragraph-inbox img {
-    height: 160px;
-    width: 180px;
-    padding-bottom: 40px;
+  /*TILT*/
+.cp_tilt {
+  	-webkit-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
+}
 
+.cp_tilt:hover{
+  	-webkit-transform: rotate(-10deg);
+  	transform: rotate(-10deg);
+}
+
+
+
+.paragraph-inbox img {
+    height: 320px;
+    width: 360px;
+    padding-bottom: 40px;
 }
 
 .paragraph-inbox p {
     text-align: center;
-}
-
-/*new*/
-
-@import "bourbon";
-
-body {
-  font-family: 'Source Code Pro', ;
-  text-align: center;
-  background-color: #efefef;
-}
-
-h3 {
-  text-transform: uppercase;
-  font-size: 15px;
-  opacity: 0.8;
-}
-
-p {
-  font-size: 25px;
-  margin-top: -5px;
-}
-
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 427px;
-  height: 237px;
-  cursor: pointer;
-  overflow: hidden;
-  transform: translate(-50%, -50%);
-}
-
-.image-container {
-  img {
-    width: 427px;
-    height: 237px;
-    transform: scale(1);
-
-    transition: transform 800ms ease-in-out;
-  }
-
-  &:after {
-    content: '';
-    display: block;
-    height: 857px;
-    width: 474px;
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: rgba(128,179,255, 0.8);
-    transform: rotate(45deg) translate3d( -880px, -200px, 0);
-
-    transition: transform 800ms 100ms cubic-bezier(.23,1,.32,1);
-  }
-
-  &:hover {
-    img {
-      transform: scale(1.3);
-    }
-
-    .text-container {
-      opacity: 1;
-      transform: translate(-50%, -50%);
-
-      transition: opacity 500ms 200ms ease-in-out, transform 500ms 200ms ease-in-out;
-    }
-
-    &:after {
-      transform: rotate(45deg) translate3d(-405px, -200px, 0);
-    }
-  }
-  .text-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -80%);
-    z-index: 100;
-    color: white;
-    opacity: 0;
-    -webkit-backface-visibility: hidden;
-
-    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
-  }
+    font-size: 1vw;
 }

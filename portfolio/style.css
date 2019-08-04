@@ -18,11 +18,11 @@ body {
     padding 0;
     width: 98vw;
     height: 100vh;
-    background-image: url(hokkaidou.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
+    background: url(IMG_0023.jpg) center center / cover no-repeat fixed;
+    /* background-position: center center;
+    background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* position: relative; */
 }
 
 .main-message::before {
@@ -172,7 +172,7 @@ h1:hover::after {
 
   overflow: hidden;
 	width: 800px;
-	height: 800px;
+	height: 600px;
 	/* margin: 20px auto; */
 	border: 10px solid #ffffff;
 	box-shadow: 0 0 5px #cccccc;

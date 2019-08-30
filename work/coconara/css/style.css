@@ -9,7 +9,7 @@ body {
 width:1980px;
 margin:0 auto;
 
-background: #f8f8f8;
+background: #FFFFCC;
 font-size: 14px;
 font-family: verdana, sans-serif;
 margin: 0;
@@ -28,7 +28,7 @@ text-align: center;
   /* background-size: cover; */
   text-align: center;
   height: 500px;
-  background-color: yellow
+  background-color: #FFFFCC;
   /* width: 1280px; */
 }
 
@@ -39,19 +39,53 @@ text-align: center;
   margin: auto;
   padding: 30px;
   width: 100%;
+  background-color: #333333;
+  /* margin-bottom: 50px; */
+  color: white;
+}
+
+
+
+.menu_container {
+  height: 60px;
   background-color: pink;
-  margin-bottom: 50px;
+  padding: 0px 5px 0px 0;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+li {
+	background: #CCC;
+	width: 200px;
+	height: 50px;
+  float: left;
+
+}
+.float {
+	width: 270px;
+	margin: auto;
+	overflow: hidden;
+}
+.float li {
+	float: left;
 }
 
 /* articleとsidevarの親要素 */
 
 .container {
-  width: 1300px;
+  width: 68%;
   overflow: hidden;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   background-color: pink;
+
+  margin-top: 60px;
 }
 
 /* 本文 */
@@ -60,7 +94,7 @@ text-align: center;
   width:60%;
   min-height:1500px;
   float:left;
-  background-color:#009b9f;
+  background-color:white;
   position: center;
 
 
@@ -74,7 +108,7 @@ text-align: center;
   float: right;
   margin-right: 100px;
 
-  background-color: #009b9f;
+  background-color: white;
 
 }
 
@@ -87,26 +121,11 @@ text-align: center;
 
 footer {
   height:100px;
-  background-color:#009b9f;
+  background-color:#000;
   margin-top:100px;
   border: none;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

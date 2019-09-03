@@ -54,17 +54,13 @@ text-align: center;
   margin: auto;
 }
 
-ul {
+#menu_container > ul {
 	list-style-type: none;
 	padding-left: 0;
 }
-li {
-	background: #CCC;
-	width: 200px;
-	height: 50px;
-  float: left;
 
-}
+
+
 .float {
 	width: 270px;
 	margin: auto;
@@ -77,12 +73,12 @@ li {
 /* articleとsidevarの親要素 */
 
 .container {
-  width: 68%;
+  width: 60%;
   overflow: hidden;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  background-color: pink;
+  background-color: none;
 
   margin-top: 60px;
 }
@@ -90,14 +86,62 @@ li {
 /* 本文 */
 
 .article {
-  width:60%;
+  width:68%;
   min-height:1500px;
   float:left;
   background-color:white;
   position: center;
+  margin:  auto;
+  font-size: 18px;
+  /* padding-top: 20px; */
+  padding-left: 30px;
+  padding-right: 30px
+}
 
+/* 本文の文字のスタイル */
+
+h2 {
+line-height: 30px;
+}
+
+p {
+line-height: 60px;
 
 }
+
+
+sentence {
+line-height: 30px;
+padding-top: 100px;
+margin-top: 100px;
+
+}
+
+.box {
+background-color: #FDF5E6;
+width: 100%;
+height:　1000px;
+margin: auto;
+}
+
+/* リスト関係 */
+
+.list {
+font-weight: bold;
+height: auto;
+width: auto;
+}
+
+li  {
+
+padding-left: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+
+
 
 /* サイドバー */
 
@@ -105,7 +149,7 @@ li {
   width: 25%;
   min-height: 500px;
   float: right;
-  margin-right: 100px;
+  margin: auto;
 
   background-color: white;
 

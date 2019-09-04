@@ -1,0 +1,29 @@
+/*********** common style *************/
+
+
+
+/*********** large screens ************/
+@media (width >= 912px) {
+  #close_menu { display: none; }
+  #open_menu { display: none; }
+
+  .menu_container {
+    background-color: pink;
+  }
+
+  .menu_container li{
+    float: left;
+  }
+
+  .menu_container  ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+/**************************************/
+
+/*********** smart screens ************/
+@media (width < 570px) {
+}
+/**************************************/

@@ -1,0 +1,8 @@
+/* サイドバー */
+.sidebar {
+  width: 300px;
+  min-height: 500px;
+  float: right;
+  margin: auto;
+  background-color: white;
+}

@@ -1,0 +1,22 @@
+/* ヘッダーの背景画像 */
+.headerbg {
+  /* background-size: cover; */
+  text-align: center;
+  background-color: #FFFFCC;
+  /* width: 1280px; */
+}
+
+.headerbg img {
+  width: 1000px;
+  height: auto;
+}
+
+/* ヘッダーの本文 */
+.header {
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+  background-color: #333333;
+  /* margin-bottom: 50px; */
+  color: white;
+}

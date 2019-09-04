@@ -22,32 +22,10 @@ text-align: center;
 
 }
 
-/* ヘッダーの背景画像 */
-
-.headerbg {
-  /* background-size: cover; */
-  text-align: center;
-  height: 500px;
-  background-color: #FFFFCC;
-  /* width: 1280px; */
-}
-
-
-/* ヘッダーの本文 */
-
-.header {
-  margin: 0;
-  padding: 30px;
-  width: 100%;
-  background-color: #333333;
-  /* margin-bottom: 50px; */
-  color: white;
-}
-
-/* articleとsidevarの親要素 */
+/* articleとsidebarの親要素 */
 
 .container {
-  width: 60%;
+  width: 1000px;
   overflow: hidden;
   position: relative;
   margin-left: auto;
@@ -57,20 +35,6 @@ text-align: center;
   margin-top: 60px;
 }
 
-/* 本文 */
-
-.article {
-  width:68%;
-  min-height:1500px;
-  float:left;
-  background-color:white;
-  position: center;
-  margin:  auto;
-  font-size: 18px;
-  /* padding-top: 20px; */
-  padding-left: 30px;
-  padding-right: 30px
-}
 
 /* 本文の文字のスタイル */
 
@@ -84,7 +48,7 @@ line-height: 60px;
 }
 
 
-sentence {
+.sentence {
 line-height: 30px;
 padding-top: 100px;
 margin-top: 100px;
@@ -235,17 +199,6 @@ padding-top: 70px;
 
 }
 
-/* サイドバー */
-
-.sidevar {
-  width: 25%;
-  min-height: 500px;
-  float: right;
-  margin: auto;
-
-  background-color: white;
-
-}
 
 /* .container {
   margin: auto;

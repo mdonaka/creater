@@ -1,24 +1,48 @@
 /*********** common style *************/
+.menu {
+  text-align: center;
+}
 
-
-
+@keyframes button_hover {
+  20% {background-color: #8a5a0c;}
+  100% {background-color: #966618;}
+}
 /*********** large screens ************/
 @media (width >= 912px) {
   #close_menu { display: none; }
   #open_menu { display: none; }
 
   .menu_container {
-    background-color: pink;
+    background-color: #855507;
+    display: inline-block;
+    width: 1260px;
+  }
+
+  .menu_container ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
   }
 
   .menu_container li{
-    float: left;
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    width: 210px;
+    padding: 0px 0px 0px 0px;
   }
 
-  .menu_container  ul {
-    overflow: hidden;
-    list-style-type: none;
-    padding-left: 0;
+  .menu_container a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .menu_container ul :hover {
+    animation: button_hover 0.5s ease -0.25s infinite alternate;
   }
 }
 /**************************************/

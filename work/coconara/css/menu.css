@@ -8,7 +8,7 @@
   100% {background-color: #966618;}
 }
 /*********** large screens ************/
-@media (width >= 912px) {
+@media (min-width: 912px) {
   #close_menu { display: none; }
   #open_menu { display: none; }
 
@@ -48,6 +48,6 @@
 /**************************************/
 
 /*********** smart screens ************/
-@media (width < 570px) {
+@media (max-width: 570px) {
 }
 /**************************************/

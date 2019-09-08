@@ -84,22 +84,25 @@ padding-bottom: 20px;
 
 .image1 {
 
-  width: 100%;
-  height: 100%;
-  position: relative;
-
-
 }
 
+.image1 {
+  display: inline-block;
+}
 
-.text1 {
-position: absolute;
-  top: 50%;
-  width: 50%;
+.image1 img {
+  width: 600px;
+  height: 500px;
+}
 
+.image1 .text1 {
+  position: relative;
+  top: -250px;
+  width: 65%;
+  margin: auto;
   color: darkred;
   background-color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 130%;
   font-weight: bold;
   text-align: center;

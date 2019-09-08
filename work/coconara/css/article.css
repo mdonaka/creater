@@ -1,13 +1,13 @@
 /* 本文 */
 .article {
-  width:600px;
-  min-height:1500px;
-  float:left;
-  background-color:white;
-  position: center;
-  margin:  auto;
-  font-size: 18px;
-  /* padding-top: 20px; */
-  padding-left: 30px;
-  padding-right: 30px
+    width: 600px;
+    min-height: 1500px;
+    float: left;
+    background-color: white;
+    position: center;
+    margin: auto;
+    font-size: 18px;
+    /* padding-top: 20px; */
+    padding-left: 30px;
+    padding-right: 30px
 }

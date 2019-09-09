@@ -1,5 +1,9 @@
 /* small screens */
 
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+
 .btn {
   margin-right: 30px;
 }
@@ -10,7 +14,6 @@ width:100%;
 margin:0 auto;
 
 background: #FFFFCC;
-font-size: 14px;
 font-family: verdana, sans-serif;
 margin: 0;
 color: #333;
@@ -30,7 +33,7 @@ text-align: center;
   /* position: relative; */
   margin-left: auto;
   margin-right: auto;
-  background-color: pink;
+  background-color: none;
 
   margin-top: 60px;
 }
@@ -44,7 +47,7 @@ line-height: 30px;
 
 p {
 line-height: 60px;
-
+margin-bottom: 30px;
 }
 
 
@@ -83,12 +86,16 @@ padding-bottom: 20px;
 }
 
 .image1 {
-
-  width: 550px;
-  height: 550px;
+  width: 100%;
+  /* width: 550px;
+  height: 550px; */
   position: relative;
   margin:auto;
 
+}
+
+.image1 > img{
+  width: 100%;
 }
 /*
 
@@ -232,39 +239,58 @@ footer {
 
 /* medium screens */
 
-@media (min-width: 570px){
+@media (max-width: 960px){
 
-
-  .feature img{
-    width: 50%;
-  }
-  .feature p {
-    width: 45%;
-  }
-
-  .feature:nth-of-type(odd) p {
-  float: right;
-  padding-left: 5%;
-
-  }
-
-  .feature:nth-of-type(even) p {
-  float: left;
-  padding-right: 5%;
-
-  }
-
-  .feature {
-    overflow: hidden;
+.container {
+  width: 100%;
 }
+
+h2 {
+font-size:  12px;
+
+}
+
+h3 {
+font-size:  12px;
+
+}
+
+h4 {
+font-size:  12px;
+
+}
+
 
 }
 
 /* large screens */
-@media (min-width: 912px) {
+@media (max-width: 480px) {
+
+body {
+/* font-size: 12px; */
+
+}
+
+h2 {
+/* font-size:  12px; */
+
+}
+
+h3 {
+/* font-size:  12px; */
+
+}
+
+h4 {
+/* font-size:  12px; */
+
+}
 
 
 .conteiner {
-  width: 820px;
+  width: 100%;
 }
+
+
+
 }

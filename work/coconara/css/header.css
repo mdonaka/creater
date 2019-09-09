@@ -20,3 +20,9 @@
   /* margin-bottom: 50px; */
   color: white;
 }
+
+@media (max-width: 480px) {
+  .header {
+    width: 100%;
+  }
+}

@@ -5,9 +5,12 @@
     float: left;
     background-color: white;
     position: center;
-    margin: auto;
+/*    margin: auto;*/
     font-size: 18px;
     /* padding-top: 20px; */
     padding-left: 30px;
-    padding-right: 30px
+    padding-right: 30px;
+    
+    box-shadow: 0 0 8px gray;
+    margin: 8px;
 }

@@ -5,6 +5,14 @@
   float: right;
   margin: auto;
   background-color: white;
+  text-align: center;
+
+}
+
+sidebar > img {
+  width: 70%;
+  border-radius: 50%;
+  margin-top: 100px;
 }
 
 @media (max-width: 480px) {

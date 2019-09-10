@@ -28,12 +28,10 @@
 }
 
 .header_main {
-    position: absolute;
-    bottom: 30%;
     opacity: 0.9;
     font-size: 2vh;
-    
-    margin: auto;
+
+    margin: 0;
     text-align: center;
     width: 100%;
 /*    height: 20%;*/
@@ -43,20 +41,20 @@
 .header_logospace {
     width: 100%;
     height: 120px;
-    
+
 }
 
 #header_logo {
     position: absolute;
-    
+
     top: 0;
     bottom: 0;
     left: 100px;
     margin: auto;
-    
+
     width: auto;
     height: 80%;
-    
+
 }
 
 .new_header {

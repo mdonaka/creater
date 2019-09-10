@@ -1,53 +1,69 @@
 /*********** common style *************/
 .menu {
-  text-align: center;
+    text-align: center;
+    width: 100%;
 }
 
 @keyframes button_hover {
-  20% {background-color: #8a5a0c;}
-  100% {background-color: #966618;}
+    20% {
+        background-color: #8a5a0c;
+    }
+
+    100% {
+        background-color: #966618;
+    }
 }
+
 /*********** large screens ************/
-@media (width >= 912px) {
-  #close_menu { display: none; }
-  #open_menu { display: none; }
+@media (min-width: 912px) {
+    #close_menu {
+        display: none;
+    }
 
-  .menu_container {
-    background-color: #855507;
-    display: inline-block;
-    width: 1000px;
-  }
+    #open_menu {
+        display: none;
+    }
 
-  .menu_container ul {
-    overflow: hidden;
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-  }
+    .menu_container {
+/*        background-color: #855507;*/
+        background-color: #1E2C38;
+        display: inline-block;
+        /*    width: 1000px;*/
+        width: 100%;
+    }
 
-  .menu_container li{
-    display: table-cell;
-    position: relative;
-    vertical-align: middle;
-    width: 210px;
-    padding: 0px 0px 0px 0px;
-  }
+    .menu_container ul {
+        overflow: hidden;
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
 
-  .menu_container a {
-    text-decoration: none;
-    color: #ffffff;
-    display: block;
-    padding: 20px 0px;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .menu_container ul :hover {
-    animation: button_hover 0.5s ease -0.25s infinite alternate;
-  }
+    .menu_container li {
+        display: table-cell;
+        position: relative;
+        vertical-align: middle;
+        width: 210px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .menu_container a {
+        text-decoration: none;
+        color: #ffffff;
+        display: block;
+        padding: 20px 0px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .menu_container ul :hover {
+        animation: button_hover 0.5s ease -0.25s infinite alternate;
+    }
 }
+
 /**************************************/
 
 /*********** smart screens ************/
-@media (width < 570px) {
-}
+@media (max-width: 570px) {}
+
 /**************************************/

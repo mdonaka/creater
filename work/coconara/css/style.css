@@ -7,16 +7,12 @@
 
 body {
     width: 100%;
-    margin: 0 auto;
-
-    /*    background: #D8E1E3;*/
     background-color: #84838F;
     font-size: 14px;
-/*    font-family: "verdana", "sans-serif";*/
+    margin: auto;
 /*fontを設定*/
     font-family: 'Hiragino Sans','ヒラギノ角ゴシック','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic''ＭＳ ゴシック','Helvetica Neue','Helvetica','Arial',sans-serif;
 
-    margin: 0;
     color: #333;
 
     /*背景の縞々を以下の記述で設定*/
@@ -52,8 +48,9 @@ center {
     width: 1000px;
     overflow: hidden;
 /*    position: relative;*/
-    margin-left: auto;
-    margin-right: auto;
+  margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     /*    background-color: #FAD6CF;*/
     /*    background-color: #D8E1E3;*/
 /*    background-color: #84838F;*/
@@ -252,4 +249,18 @@ footer {
 
     color: #fff;
 }
+}
+
+@media (max-width: 480px) {
+
+body {
+  width: 480px;
+}
+
+}
+
+@media (max-width: 960px) {
+  body {
+    width: 960px;
+  }
 }

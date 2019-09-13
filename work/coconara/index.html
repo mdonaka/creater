@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script>
   // 監視の開始 livereloadx [dir]
-  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +':35729/livereload.js?snipver=2"></' + 'script>')
+  // document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +':35729/livereload.js?snipver=2"></' + 'script>')
   </script>
 </head>
 <body>
@@ -37,7 +37,6 @@
       </div>
 
   </div>
-
 
   <!-- 画像の埋め込み
   <div class="headerbg">
@@ -155,28 +154,29 @@
   </div>
 <!-- メニューのタブ部分 -->
 <!-- fontawesomeのコード（タブのアイコン表示） -->
+</div>
 
   <footer>
-    &copy; dotinstall.com
+    &copy; 
   </footer>
 
   <script>
-  // メニューの開け閉め
-    (function() {
-      'use strict';
+   //メニューの開け閉め
+     (function() {
+       'use strict';
 
-      var openMenu = document.getElementById('open_menu');
-      var closeMenu = document.getElementById('close_menu');
-      var menu = document.getElementById('menu');
+       var openMenu = document.getElementById('open_menu');
+       var closeMenu = document.getElementById('close_menu');
+       var menu = document.getElementById('menu');
 
-      openMenu.addEventListener('click', function() {
-        menu.classList.add('shown');
-      });
+       openMenu.addEventListener('click', function() {
+         menu.classList.add('shown');
+       });
 
-      closeMenu.addEventListener('click', function() {
-        menu.classList.remove('shown');
-      });
-    })();
-  </script>
+       closeMenu.addEventListener('click', function() {
+         menu.classList.remove('shown');
+       });
+     })();
+   </script>
 </body>
 </html>

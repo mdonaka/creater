@@ -8,7 +8,14 @@ p {
   padding-bottom: 30px;
 }
 
+h4 {
 
+  padding: 20px 20px;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  font-size: 38px;
+}
 
 .header {
   width: 100%;
@@ -28,7 +35,7 @@ margin-bottom: 30px;
   min-height: 500px;
   box-shadow: 0 0 20px gray;
   text-align: center;
-  margin: 0 auto 30px auto ;
+  margin: 20px auto 30px auto ;
 }
 
 .textbox {
@@ -37,6 +44,26 @@ margin-bottom: 30px;
   line-height: 50px;
   padding-top: 30px;
   padding-left: 20px;
+}
+
+.box {
+  height: 250px;
+  width: 800px;
+  margin: 50px auto 50px auto;
+  box-shadow: 0 0 8px gray;
+  background-color: #FFFFBB;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.box2 {
+  height: 250px;
+  width: 800px;
+  margin: 50px auto 50px auto;
+  box-shadow: 0 0 8px gray;
+  background-color: #FFFFBB;
+  font-size: 24px;
+  padding: 20px;
 }
 
 .textbox > h3 {
@@ -48,4 +75,15 @@ margin-bottom: 30px;
   width: 100%;
   background-color: pink;
   height: 100px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+
+}
+
+
+ul {
+   list-style-type:decimal-leading-zero;
 }

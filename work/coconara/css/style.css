@@ -11,7 +11,7 @@ body {
     font-size: 14px;
 /*fontを設定*/
     font-family: 'Hiragino Sans','ヒラギノ角ゴシック','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic''ＭＳ ゴシック','Helvetica Neue','Helvetica','Arial',sans-serif;
-
+    margin: auto;
     color: #333;
 
     /*背景の縞々を以下の記述で設定*/

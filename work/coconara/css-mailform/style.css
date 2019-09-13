@@ -1,0 +1,51 @@
+
+body {
+  background-color: #F8F8FF;
+  width: 100%;
+  margin-left: ;
+}
+p {
+  padding-bottom: 30px;
+}
+
+
+
+.header {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.mailform {
+width: 100%;
+height: 500px;
+background-color: orange;
+margin-bottom: 30px;
+}
+
+.container {
+  width: 1000px;
+  min-height: 500px;
+  box-shadow: 0 0 20px gray;
+  text-align: center;
+  margin: 0 auto 30px auto ;
+}
+
+.textbox {
+  font-size: 22px;
+  text-align: left;
+  line-height: 50px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.textbox > h3 {
+  color: #FF3366;
+}
+
+
+.subtitle {
+  width: 100%;
+  background-color: pink;
+  height: 100px;
+}

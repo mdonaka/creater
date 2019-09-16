@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script>
   // 監視の開始 livereloadx [dir]
-  // document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +':35729/livereload.js?snipver=2"></' + 'script>')
+  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +':35729/livereload.js?snipver=2"></' + 'script>')
   </script>
 </head>
 <body>
@@ -50,10 +50,10 @@
 
   <!-- メニューのコンテナ -->
   <div class="menu">
-    <i id="open_menu"class="fas fa-bars"></i>
-    <nav class="menu_container">
-      <i id="close_menu" class="fas fa-times"></i>
-      <ul>
+    <i id="open_menu" class="fas fa-bars"></i>
+    <i id="close_menu" class="fas fa-times none"></i>
+    <nav class="menu_container none">
+      <ul id="menu_list">
         <li><a href="#">TOP</a></li>
         <li><a href="#">映画ビジョン戦略</a></li>
         <li><a href="#">サービスの流れ</a></li>
@@ -157,7 +157,7 @@
 </div>
 
   <footer>
-    &copy; 
+    &copy;
   </footer>
 
   <script>
@@ -167,14 +167,22 @@
 
        var openMenu = document.getElementById('open_menu');
        var closeMenu = document.getElementById('close_menu');
-       var menu = document.getElementById('menu');
-
+       var menu = document.getElementById('menu_list');
+       var con = document.getElementsByClassName('menu_container')[0];
        openMenu.addEventListener('click', function() {
-         menu.classList.add('shown');
+         menu.classList.add('open');
+         menu.classList.remove('close');
+         setTimeout(function(){con.classList.remove('none');}, 200);
+         openMenu.classList.add('none');
+         closeMenu.classList.remove('none');
        });
 
        closeMenu.addEventListener('click', function() {
-         menu.classList.remove('shown');
+         menu.classList.add('close');
+         menu.classList.remove('open');
+         openMenu.classList.remove('none');
+         closeMenu.classList.add('none');
+         setTimeout(function(){con.classList.add('none');}, 1000);
        });
      })();
    </script>

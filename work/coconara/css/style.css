@@ -44,7 +44,7 @@ center {
 /* articleとsidebarの親要素 */
 
 .container {
-    width: 1000px;
+    width: 800px;
     overflow: hidden;
 /*    position: relative;*/
   margin: auto;
@@ -286,6 +286,11 @@ body {
   margin: auto;
 }
 
+.image2 {
+  height: 200px;
+  width: 250px;
+}
+
 }
 
 @media (max-width: 960px) {
@@ -293,11 +298,16 @@ body {
     width: 960px;
     margin: auto;
   }
+
+  .image2 {
+    height: 250px;
+    width: 250px;
+  }
 }
 
 /* 本文 */
 .article {
-    width: 600px;
+    width: 700px;
     min-height: 1500px;
     float: left;
     background-color: white;
@@ -324,6 +334,24 @@ line-height: 60px;
 padding-top: 30px;
 margin: auto;
 }
+
+.image2 {
+  height: 200px;
+  width: 250px;
+}
+
+.image4 {
+  height: 120px;
+  width: 850px;
+  margin-top: 100px;
+}
+
+.method1 {
+    padding-top: 0;
+    /* position: relative; */
+    padding-left: 300px;
+    width: 500px;
+}
 /* .article *{
   font-size: 120px;
 } */
@@ -342,7 +370,6 @@ text {
 
 h4 {
   line-height: 50px;
-
 }
 
 .box2 {
@@ -368,6 +395,12 @@ h4 {
   margin: auto;
   }
 
+  .image2 {
+    height: 220px;
+    width: 250px;
+
+  }
+
 p {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -388,7 +421,7 @@ text {
 
 h4 {
   line-height: 50px;
-
+  font-size: 32px;
 }
 
 .box {
